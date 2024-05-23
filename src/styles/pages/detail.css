@@ -1,0 +1,19 @@
+.container-detail {
+  width: 100%;
+  display: flex;
+}
+
+.container-detail form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+}
+
+.container-detail form .form-note-detail__input {
+  width: 100%;
+  resize: none;
+  padding: 20px 10px;
+}

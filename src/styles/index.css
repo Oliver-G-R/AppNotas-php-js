@@ -1,0 +1,54 @@
+/*************** Import ***************/
+
+/* Pages */
+
+@import url('./pages/home.css');
+@import url('./pages/detail.css');
+
+/* Components */
+@import url('./components/cardNote.css');
+@import url('./components/headerApp.css');
+@import url('./components/Fab.css');
+@import url('./components/search.css');
+@import url('./components/FormNote.css');
+@import url('./components/detailNoteModal.css');
+
+/*************** Reset ***************/
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  word-wrap: break-word;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-color: #eff3f9a5;
+  --tertiary-color: #4f74f5;
+
+  --title-color: #000000;
+  --text-color: #b1b5c4;
+}
+
+/*************** Utility Class ***************/
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 800px;
+  padding: 20 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 866px) {
+  .container {
+    width: 90%;
+  }
+}

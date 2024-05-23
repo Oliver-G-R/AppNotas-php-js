@@ -1,0 +1,13 @@
+.header-app h2 a {
+  color: var(--tertiary-color);
+}
+
+.content-logo {
+  display: flex;
+  align-items: center;
+}
+
+.content-logo img {
+  width: 30px;
+  margin-left: 10px;
+}

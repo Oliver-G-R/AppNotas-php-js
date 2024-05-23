@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  padding: 0 10px;
+  background-color: transparent;
+}
+
+.search-container button {
+  background-color: var(--tertiary-color);
+  border: none;
+  height: auto;
+  cursor: pointer;
+  width: 40px;
+  border-right: 1.5px solid rgba(184, 183, 183, 0.342);
+  background-color: transparent;
+}
+
+.search-container button img {
+  width: 25px;
+}

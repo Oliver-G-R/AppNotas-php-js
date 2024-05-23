@@ -1,0 +1,20 @@
+.fab {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: var(--tertiary-color);
+  padding: 2px;
+  transition: 0.3s all;
+}
+.fab:hover {
+  transform: scale(0.9);
+  background-color: #5677ec;
+}
+
+.header-notes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
